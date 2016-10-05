@@ -43,5 +43,6 @@
     </div>
 
 </section>
+<?php include 'customize-service.php'; ?>
 </div>
 <?php include 'footer.php'; ?>

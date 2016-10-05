@@ -2,3 +2,95 @@
 Add your custom styles below
 ****************************/
 
+.customize-service {
+  background: #252C3F;
+}
+.customize-service h3 {
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+}
+.customize-service p {
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+}
+.indicator-wrapper {
+  position: relative;
+}
+ul.indicator {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.indicator-wrapper .indicator-line {
+  width: 72%;
+  margin-left: 8%;
+  height: 2px;
+  top: 60px;
+  background: #747885;
+  position: absolute;
+}
+.indicator-wrapper .indicator-line ul {
+  margin: 0;
+  padding: 0;
+  line-height: 0 !important;
+  font-family: 'Lato';
+}
+.indicator-wrapper .indicator-line ul li {
+  background: #747885;
+  height: 10px;
+  width: 10px;
+  margin-top: -4px;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  display: inline-block;
+}
+.indicator-wrapper .indicator-line ul li:first-child {
+  float: left;
+}
+.indicator-wrapper .indicator-line ul li:last-child {
+  float: right;
+}
+ul.indicator li {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 32%;
+}
+ul.indicator li:first-child {
+  text-align: left;
+}
+ul.indicator li:last-child {
+  text-align: right;
+}
+ul.selector {
+  min-width: 180px;
+  background: white;
+  font-family: 'Lato';
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+ul.selector li {
+  width: 100%;
+  font-size: 12px;
+  padding: 4px 15px;
+  color: #1B2235;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 1px solid #D8D8D8;
+}
+ul.selector li:first-child, ul.selector li:last-child {
+  padding: 8px 15px 4px 15px;
+}
+ul.selector li:last-child {
+   border-bottom: 0;
+}
+ul.selector li input {
+  margin-right: 12px;
+  height: 14px;
+  width: 14px;
+}
