@@ -24,7 +24,7 @@ ul.indicator {
   position: relative;
 }
 .indicator-wrapper .indicator-line {
-  width: 72%;
+  width: 78%;
   margin-left: 8%;
   height: 2px;
   top: 60px;
@@ -49,6 +49,7 @@ ul.indicator {
 }
 .indicator-wrapper .indicator-line ul li:first-child {
   float: left;
+  background: white;
 }
 .indicator-wrapper .indicator-line ul li:last-child {
   float: right;
@@ -73,6 +74,7 @@ ul.selector {
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
+  box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.50);
 }
 ul.selector li {
   width: 100%;
@@ -93,4 +95,14 @@ ul.selector li input {
   margin-right: 12px;
   height: 14px;
   width: 14px;
+}
+.next-btn {
+  margin:10px 0 0 0 !important;
+  display: inherit;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+#channel, .signup-form, .next-btn {
+  display: none;
 }
