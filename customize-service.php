@@ -56,7 +56,7 @@
           </div>
           <div class="col-sm-4">
             <a class="btn btn--sm next-btn">
-              <span class="btn__text customize-btn-title">
+              <span class="btn__text customise-btn">
                  Next, Channels →
               </span>
             </a>

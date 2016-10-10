@@ -1,7 +1,7 @@
 <footer class="bg--white bg--grey footer-1 text-center-xs">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-4">
+            <div class="col-lg-3 col-md-3 col-sm-12">
                 <a href="#">
                     <img class="logo" alt="Pillar" src="img/logo.svg" />
                 </a>
@@ -9,7 +9,7 @@
                   Electronic communications<br> and e-payments technology
                 </p>
             </div>
-            <div class="col-md-3 col-sm-8">
+            <div class="col-lg-3 col-md-3 col-sm-12">
                 <h6>LEGAL INFO</h6>
                 <ul class="footer__navigation">
                     <li>
@@ -49,7 +49,7 @@
                     </li>
                 </ul>
               </div>
-              <div class="col-md-3 col-sm-8">
+              <div class="col-lg-3 col-md-2 col-sm-12">
                 <ul class="footer__navigation">
                   <h6>RESOURCES</h6>
                     <li>
@@ -74,7 +74,7 @@
                     </li>
                 </ul>
               </div>
-              <div class="col-md-3 col-sm-8">
+              <div class="col-lg-3 col-md-2 col-sm-12">
                 <ul class="footer__navigation">
                   <h6>TOTALSEND</h6>
                     <li>
